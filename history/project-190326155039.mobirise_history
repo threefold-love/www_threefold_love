@@ -1,6 +1,6 @@
 {
   "settings": {
-    "name": "ThreeFold.Love",
+    "name": "Site-03-22_1704",
     "currentPage": "index.html",
     "theme": {
       "name": "mobirise4",
@@ -75,9 +75,7 @@
     ],
     "uniqCompNum": 4,
     "versionPublish": "4.9.5",
-    "screenshot": "screenshot.png",
-    "favicon": "",
-    "noImageResize": ""
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
