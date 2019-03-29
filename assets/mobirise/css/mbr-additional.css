@@ -1383,6 +1383,17 @@ body {
     flex: auto!important;
   }
 }
+.jq-selectbox li:hover,
+.jq-selectbox li.selected {
+  background-color: #ffffff;
+  color: #000000;
+}
+.jq-selectbox .jq-selectbox__trigger-arrow {
+  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+}
+.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+  border-top-color: #ffffff;
+}
 .cid-rlsNvLDzny {
   background-image: url("../../../assets/images/shutterstock-689820268-2000x1610.jpg");
 }
@@ -1488,6 +1499,11 @@ body {
   .cid-rlOXKpRlW0 .mbr-subscribe > * {
     margin: 0 0.5rem;
   }
+}
+.cid-rm75DWT42t {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: url("../../../assets/images/tf-bg-1-2000x1125.jpg");
 }
 .cid-rlPiIxxLth {
   padding-top: 30px;
