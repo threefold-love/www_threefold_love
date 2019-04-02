@@ -1,0 +1,13 @@
+:2016 {
+    bind 0.0.0.0
+    gzip
+    root .
+    
+    git {
+        repo https://github.com/threefold-love/www_threefold_love.git
+        branch master
+        hook /webhook "zU3687$aJec9"
+        key ~/.ssh/id_rsa
+        path . 
+    }
+}
