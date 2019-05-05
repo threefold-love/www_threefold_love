@@ -1,13 +1,14 @@
-:2017 {
+:80 {
     bind 0.0.0.0
     gzip
-    root .
-    
+    root /opt/www_threefold_love/
+    log stdout
     git {
         repo https://github.com/threefold-love/www_threefold_love.git
         branch master
-        hook /webhook "zU3687$aJec9"
-        key ~/.ssh/id_rsa
-        path . 
+        hook /webhook "test9278"
+        hook_type generic
+        key /root/.ssh/id_rsa
+        path /opt/www_threefold_love/
     }
 }
