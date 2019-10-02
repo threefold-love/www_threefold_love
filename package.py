@@ -50,5 +50,5 @@ class Package(j.baseclasses.threebot_package):
         called when the package is no longer needed and will be removed from the threebot
         :return:
         """
-        pas
+        pass
 
