@@ -16,7 +16,7 @@ class Package(j.baseclasses.threebot_package):
         website_threefold_love.port = 80
         website_threefold_love.ssl = False
 
-        websites = [server.get_from_port(80), server.get_from_port(443), website_3bot]
+        websites = [server.get_from_port(80), server.get_from_port(443), website_threefold_love]
         for website in websites:
             locations = website.locations.get(f"3bot_locations_{website.name}")
 
