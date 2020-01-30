@@ -8,6 +8,7 @@ class Package(j.baseclasses.threebot_package):
     JSX> cl.actors.package_manager.package_add(git_url="https://github.com/threefold-love/www_threefold_love/tree/3bot")
     """
     DOMAIN = "threefold.love"
+    name = "www_threefold_love"
     def start(self):
         server = self.openresty
         server.configure()
